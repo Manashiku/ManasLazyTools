@@ -1,0 +1,53 @@
+{
+  "m_ShaderSettings": {
+    "m_Header": [
+      " ------------------------------------------------------------",
+      
+      " ------------------------------------------------------------"
+    ],
+    "m_Categories": {
+      "General": {
+        "m_CategoryIndex": 0,
+        "m_CategoryHeader": [
+          "------------------------------------------------------------",
+          "General settings: "
+        ],
+        "m_CategoryMapping": ["_ParameterName1", "_ParameterName2"],
+        "m_ParameterOverride": {
+          "_ParameterName1": {
+            "NameOverride": "PARAMETERNAME",
+            "ValueOverride": {
+              "m_Path": "",
+              "m_Float": 1.0,
+              "m_Vector": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              }
+            }
+          }
+        },
+        "m_CustomParameters": {
+          "CustomParameterName": {
+            "DefaultValue": "1",
+            "ChangeIf": {
+              "FileNameContains": {"Contains": "", "ChangeTo": 1},
+              "MaterialContains": {"Contains": "", "ChangeTo": 1},
+              "MaterialContainsnt" : {"Contains": "", "ChangeTo": 1}
+            }
+          },
+          "AnotherCustomParameterName": {
+            "DefaultValue": "1",
+            "ChangeIf": {
+              "FileNameContains": {"Contains": "", "ChangeTo": 1},
+              "MaterialContains": {"Contains": "", "ChangeTo": 1},
+              "MaterialContainsnt" : {"Contains": "", "ChangeTo": 1}
+            }
+          }
+        }
+      }
+    },
+    "m_Footer": ["#include "]
+  }
+}
